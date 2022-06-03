@@ -1,0 +1,11 @@
+__author__ = 'Bruna e Gabrieli'
+
+print('----Calcule o aumento do Salário----')
+
+val = float(input('insira o salário atual: ').replace(',','.'))
+perc = float(input('insira a porcentagem de aumento: ').replace(',','.'))
+
+perc = perc/100
+valsal = val * perc + val
+
+print('O salário com aumento R$ %.2f'%valsal)
